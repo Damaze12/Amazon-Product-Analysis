@@ -39,6 +39,13 @@ To support sellers on Amazon with data‑driven recommendations on product impro
 
 3. **Pivot Tables:**
 - Created a master Pivot Table on Sheet "Pivot"
+ ![Screenshot (94)](https://github.com/user-attachments/assets/1bf16e22-7507-4fac-bd9e-7a2ef5fa22cf)
+![Screenshot (76)](https://github.com/user-attachments/assets/356cc85e-cd28-4e16-a3f2-cf3e10082226)
+
+---
+
+## 📊 Dashboard Creation in Excel
+
 
  
 
