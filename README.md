@@ -58,8 +58,10 @@ Screenshot (76)](https://github.com/user-attachments/assets/356cc85e-cd28-4e16-a
 -  Products priced ₹200–₹500 account for 25% of listings.
 - There is 308 Products with less than 1000 Reviews.
 - B09ZHCJDP1, B0BQRJ3C47, B0BP7XLX48 are products with the highest rating.
+- Products with 80-90% discount percentage has the lowest rating.
 ---
 ### Conclusion
+This dashboard offers a comprehensive overview of product performance across various categories on Amazon. It highlights key patterns in pricing, discounts, customer reviews, and product ratings. By identifying top-performing products and categories, as well as areas with low engagement or high discounts but poor ratings, sellers can make informed decisions. These insights empower e-commerce teams to refine pricing strategies, enhance product quality, and tailor marketing efforts to boost customer satisfaction and drive revenue growth.
 
 
 
