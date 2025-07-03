@@ -38,13 +38,29 @@ To support sellers on Amazon with data‑driven recommendations on product impro
 - Discount Bucket for 50% or more; =IF([@[discount_percentage]]>=50%,"Yes","No")
 
 3. **Pivot Tables:**
-- Created a master Pivot Table on Sheet "Pivot"
- ![Screenshot (94)](https://github.com/user-attachments/assets/1bf16e22-7507-4fac-bd9e-7a2ef5fa22cf)
-![Screenshot (76)](https://github.com/user-attachments/assets/356cc85e-cd28-4e16-a3f2-cf3e10082226)
+- Created a master Pivot Table on Sheet "Pivot" to answer the business quesions
+
+![![Screenshot (97)](https://github.com/user-attachments/assets/291a22f4-3b10-41bc-a253-361f40f6802e)
+Screenshot (76)](https://github.com/user-attachments/assets/356cc85e-cd28-4e16-a3f2-cf3e10082226)
 
 ---
 
-## 📊 Dashboard Creation in Excel
+### 📊 Dashboard Creation in Excel
+ - Bar and pie charts for quick insights
+![Screenshot (96)](https://github.com/user-attachments/assets/2b4818c9-43d9-4aa1-bff2-a1b96fde2cfd)
+![Screenshot (95)](https://github.com/user-attachments/assets/4992003e-37e1-44a1-bcc8-b6b952597693)
+
+---
+### 💡Key Insights
+- Musical Instrument enjoy the highest average discount.
+-  Electronics dominate review volume and it has the highest potential revenue
+-  49% of the total Product is with a discount of 50% or more.
+-  Products priced ₹200–₹500 account for 25% of listings.
+- There is 308 Products with less than 1000 Reviews.
+- B09ZHCJDP1, B0BQRJ3C47, B0BP7XLX48 are products with the highest rating.
+---
+### Conclusion
+
 
 
  
