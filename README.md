@@ -28,8 +28,18 @@ To support sellers on Amazon with data‑driven recommendations on product impro
   ## 🔄 Process
 1. **Data Cleaning & Preparation:**
 - Imported amazon product review file into Microsoft Excel.
-- Removed duplicates udisin Product ID as Identifier 
+- Removed duplicates using Product ID as an Identifier 
 - Handled missing values (discount_percent, rating_count)
 - Used text to column to split category
-     
+2. **Calculated Column;**
+- Price Bucket: =IF([@[discounted_price]]<200,"<₹200",IF(OR([@[discounted_price]]=200,[@[discounted_price]]<=500),"₹200-₹500",">₹500"))
+- Total Potential Revenue: =actual_price * rating_count
+- Discount Bucket; =IF([@[discount_percentage]]<=10%,"0-10%",IF([@[discount_percentage]]<=20%,"11-20%",IF([@[discount_percentage]]<=30%,"21-30%",IF([@[discount_percentage]]<=40%,"31-40%",IF([@[discount_percentage]]<=50%,"41-50%",IF([@[discount_percentage]]<=60%,"51-60%",IF([@[discount_percentage]]<=70%,"61-70%",IF([@[discount_percentage]]<=80%,"71-80%",IF([@[discount_percentage]]<=90%,"81-90%","91-100%")))))))))
+- Discount Bucket for 50% or more; =IF([@[discount_percentage]]>=50%,"Yes","No")
+
+3. **Pivot Tables:**
+- Created a master Pivot Table on Sheet "Pivot"
+
+ 
+
   
